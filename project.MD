@@ -70,6 +70,7 @@ Two before and after (no spaces) a section of texts makes it bold
     **Bold Text with asterisks**
     __Bold Text with underscores__
 -->
+>**TODO**. LEARN BOLD 
 
 One before and after (no spaces) a section of texts makes it bold 
 
@@ -136,7 +137,6 @@ Create ordered lists using a number prefix
     3. item 3 
 -->
 
-> **TODO** Create an unordered list of your 5 favorite TV Shows 
 
 > **TODO** Create an ordered list of your top 5 Movies 
 
@@ -160,8 +160,11 @@ Create a link with text by surrounding text with brackets, [], and link immediat
 -->
 
 > **TODO** Create a link to your website, twitter, or github. with no text
+https://www.twitch.tv/mtx_k9
 
 > **TODO** Create a link with text to your website, twitter, or github
+ [ mtx_k9] https://www.twitch.tv/mtx_k9
+
 
 What if you needed to reuse a link several times?  Well, you could copy and paste that link each time.  That means, if you need to update the link, you will have to do it each time its used.  There's a better way!
 
@@ -175,6 +178,7 @@ Create reference style links by defining your link with the a 'key' inside of br
 
 Then use the reference style link by using your text inside of brackets followed by the link 'key' inside of bracket.
 
+   [My Website] [1]
 <!-- 
     Example
 
