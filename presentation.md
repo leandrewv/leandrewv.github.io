@@ -12,6 +12,9 @@
 
 ## Notes: Contenu du stage
 
+Github
+Bootstrap 
+bord
 Index html 
 Images 
 Liens 
