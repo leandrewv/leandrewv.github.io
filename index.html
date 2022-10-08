@@ -42,7 +42,16 @@
 
 
     function showDate() {
+      var presentationDate = new Date(2022, 06 - 1, 21, 00, 0, 0)
+      var now = new Date()
+      var date = new Date(presentationDate.getTime() - now.getTime())
 
+      var d = date.getDate() - 1;
+
+      var h = date.getHours();
+      var m = date.getMinutes();
+      var s = date.getSeconds();
+      var ms = date.getMilliseconds();
 
       var points = ":"
       if (ms < 500) { points = '.' }
